@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework Grails</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sign in</h1>
+        </div>
+
+        <div class="content loginContent">
+            <div class="welcome">
+                <img class="profilePicture" src="./assets/profilePicture.png" />
+                <h2>Welcome !</h2>
+                <h3>Please sign in to access content !</h3>
+            </div>
+
+            <form class="form" method="post" action="/lists.html">
+                <input class="formUsername" type="text" placeholder="Username" required />
+                <input class="formPassword" type="password" placeholder="Password" required />
+                <input class="formButton" type="submit" value="Sign in" />
+            </form>
+        </div>
+
+        <div class="footer">All rights reserved Gregory Galli</div>
+    </div>
+</body>
+
+</html>
